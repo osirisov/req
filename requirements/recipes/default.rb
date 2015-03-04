@@ -17,7 +17,7 @@ directory "/var/www/html" do
   mode 00755
 end
 
-cookbook_file "/var/www/html/index.htm" do
+cookbook_file "/var/www/html/index.html" do
   source "index.htm"
   owner "root"
   group "root"
